@@ -1,0 +1,11 @@
+{
+  "name": "shanshihui",
+  "homepage": "https://thinhmai1996-hub.github.io/shanshihui/",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d"
+  }
+}
